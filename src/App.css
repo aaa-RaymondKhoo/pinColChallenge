@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.wj-flexgrid {
+  max-height: 250px;
+  margin: 10px 0;
+}
+
+/* style frozen cells */
+.wj-cell.wj-frozen,
+.wj-cell.wj-alt.wj-frozen {
+  background: rgb(255, 255, 125);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
